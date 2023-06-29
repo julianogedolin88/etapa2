@@ -16,7 +16,6 @@ def divisao(a, b):
     else:
         return "Erro: divisão por zero"
 
-# Exemplo de uso da calculadora
 numero1 = float(input("Digite o 1° número: "))
 numero2 = float(input("Digite o 2° número: "))
 
@@ -41,4 +40,4 @@ elif opcao == "4":
     resultado = divisao(numero1, numero2)
     print("Resultado: ", resultado)
 else:
-    print("Opção inválida!")
+    print("Opção não existe!")
