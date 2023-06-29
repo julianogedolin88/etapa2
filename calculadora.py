@@ -17,8 +17,8 @@ def divisao(a, b):
         return "Erro: divisão por zero"
 
 # Exemplo de uso da calculadora
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
+numero1 = float(input("Digite o 1° número: "))
+numero2 = float(input("Digite o 2° número: "))
 
 print("Escolha a operação:")
 print("1 - Soma")
@@ -41,4 +41,4 @@ elif opcao == "4":
     resultado = divisao(numero1, numero2)
     print("Resultado: ", resultado)
 else:
-    print("Opção inválida")
+    print("Opção inválida!")
